@@ -1,0 +1,257 @@
+body {
+	background-color: #036;
+}
+
+body,td,th {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+
+.checklink {
+	font-weight:bold;
+	font-size:17px;
+	color:blue;
+	cursor:pointer;
+	text-decoration:underline;
+}
+
+.center {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.navcontainer {
+	padding-top:25px;
+	clear:both;
+}
+
+.navnext {
+	float:right;
+	font-size:21px;
+}
+
+.navprev {
+	float:left;
+	font-size:21px;
+}
+
+.novideosfound {
+	text-align:center;
+	padding:50px;
+}
+
+.fp_rated {
+	padding-top:25px;
+	color:black;
+	width:150px;
+}
+
+.fp_plot {
+	width:200px;
+	font-size:12px;
+	padding-top:10px;
+	color:#2C2E53;
+}
+
+.one {
+	position: relative;
+	width:214; 
+	height:317;
+}
+
+.two {
+	position: absolute;
+	padding-top:10px;
+	padding-left:10px;
+	width:204px; 
+	height:307px;
+	background: white;
+	opacity:0.85;
+	font-size:14px;
+	font-weight:700;
+	filter: alpha(opacity=85);
+	cursor:pointer;
+}
+
+.webtitle {
+	letter-spacing:5px;
+	font-size:25px;
+}
+
+.hovercover {
+	color:#069;
+	text-decoration:none;
+}
+
+.hovercover:hover {
+	color:#069;
+	text-decoration:none;
+}
+
+.main_tab, .main_tab_selected {
+	float:left;
+	padding:16px 25px 16px 25px;
+	font-weight:bold;
+	border-right:#999 thin solid;
+}
+
+.main_tab_selected {
+	background-color:#DEDEDE;
+}
+
+.main_tab_table {
+	font-size:15px;
+	color:#6A6764;
+	background-color:#6A6764
+}
+
+.deselected_tab {
+	float:left;
+	background-color:#CCCCCC;
+	padding:10px 30px 10px 30px;
+	font-size:15px;
+	font-weight:bold;
+}
+
+.selected_tab {
+	float:left;
+	background-color:#FFFFFF;
+	padding:10px 30px 10px 30px;
+	font-size:15px;
+	font-weight:bold;
+}
+
+.tab_link {
+	cursor:pointer;
+	color:black;
+	text-decoration:none;
+}
+
+.uptab_link_deselected {
+	cursor:pointer;
+	color:white;
+	text-decoration:none;
+}
+
+.dropmenu_container {
+	font-size:14px;
+	color:#DEDEDE;
+	background-color:#DEDEDE;
+}
+
+.dropmenudiv{
+	position:absolute;
+	top: 0;
+	border: 1px solid #BBB; /*THEME CHANGE HERE*/
+	border-bottom-width: 0;
+	font:normal 12px Verdana;
+	line-height:18px;
+	z-index:100;
+	background-color: white;
+	width: 200px;
+	visibility: hidden;
+}
+
+.dropmenudiv a{
+	width: auto;
+	display: block;
+	text-indent: 3px;
+	border-bottom: 1px solid #BBB; /*THEME CHANGE HERE*/
+	padding: 2px 0;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+
+* html .dropmenudiv a{ /*IE only hack*/
+	width: 100%;
+}
+
+.dropmenudiv a:hover{ /*THEME CHANGE HERE*/
+	background-color: #F0F0F0;
+}
+
+.search_div {
+	float:right;
+	padding:10px 10px 0px 10px;
+}
+
+.error_msg {
+	color:red;
+	font-weight:bold;
+	padding:10px;
+}
+
+.faq_title {
+	font-size:14px;
+	font-weight:bold;
+	padding-bottom:8px;
+	text-decoration:underline;
+	padding-top:15px;
+}
+
+.faq_desc {
+	width:800px;
+	line-height:18px;
+}
+
+.classification { 
+	position: relative;
+	width: 91px;
+	height: 17px;
+}
+
+.classification .cover {
+	position: absolute;
+	background: transparent url(../img/stars.png) top left no-repeat;
+	top: 0px;
+	left: 0px;
+	width: 91px;
+	height: 17px;
+	z-index: 0;
+}
+
+.classification .progress {
+	position: absolute;
+	background: transparent url(../img/stars_full.png) top left no-repeat;
+	top: 0px;
+	left: 0px;
+	height: 17px;
+	z-index: 1;
+}
+
+.trailer_div {
+	margin:auto;
+	position:absolute;
+	top:40%;
+	width:98%;
+}
+
+.trailer_body {
+	text-align:center;
+	background-color: #000;
+}
+
+.trailer_link {
+	color:white;
+	font-size:32px;
+	text-decoration:none;
+}
+
+.trailer_link:hover {
+	text-decoration:underline;
+}
+
+.nav {
+	color:blue;
+	border-radius:5px;
+	border:thin solid #000;
+	background-color:#369;
+	padding:2px 4px 2px 4px;
+	margin:2px;
+}
+
+.nav a {
+	text-decoration:none;
+	color:white;
+}
